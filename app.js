@@ -9,7 +9,7 @@ const LOCK_ICON = "assets/lock.png";
 const UNKNOWN_ICON = "assets/question-mark.png";
 const IN_PROGRESS_ICON = "assets/in-progress.png";
 
-const UNKNOWN_INDEX = 2; // completionIndex at which nodes are marked unknown instead of just locked
+const UNKNOWN_INDEX = 20; // completionIndex at which nodes are marked unknown instead of just locked
 // completionIndex=0 for nodes that are completed; completionIndex=1 for nodes that have a completed dependency; etc etc
 const FORCE_DISPLAY_ICONS = false; // set to false for lock icons
 
